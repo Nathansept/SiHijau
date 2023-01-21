@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".KontenSampahManusia">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ededed">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/main_toolbar"/>
+
+            <TextView
+                android:id="@+id/TextBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampah Manusia"
+                android:textAlignment="center"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_below="@id/TextBanner"
+                android:layout_height="300dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="2"
+                app:sliderStartAutoCycle="true" />
+            <TextView
+                android:id="@+id/TextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampah manusia (Inggris: human waste) adalah istilah yang biasa digunakan terhadap hasil-hasil
+pencernaan manusia, seperti feses dan urin. Sampah manusia dapat menjadi bahaya serius bagi
+kesehatan karena dapat digunakan sebagai vektor (sarana perkembangan) penyakit yang disebabkan virus dan bakteri."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salah satu perkembangan utama pada dialektika manusia adalah pengurangan
+penularan penyakit melalui sampah manusia dengan cara hidup yang higienis dan sanitasi. Termasuk didalamnya adalah perkembangan teori
+penyaluran pipa (plumbing). Sampah manusia dapat dikurangi dan dipakai ulang misalnya melalui sistem urinoir tanpa air."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextBanner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dampak Sampah Bagi Masyarakat"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextBanner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terhadap Kesehatan"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasi dan pengelolaan sampah yang kurang memadai (pembuangan sampah yang tidak terkontrol) merupakan tempat yang cocok bagi beberapa
+organisme dan menarik bagi berbagai binatang seperti lalat, kecoa, dan tikus yang dapat menimbulkan penyakit."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potensi bahaya kesehatan yang dapat ditimbulkan sampah adalah sebagai berikut:"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="15dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Penyakit diare, kolera, tifus menyebar dengan cepat karena virus yang berasal dari sampah dengan pengelolaan tidak tepat dapat bercampur air minum. Penyakit demam berdarah dapat juga meningkat dengan cepat di daerah yang pengelolaan sampahnya kurang memadai."
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Penyakit jamur dapat juga menyebar (misalnya jamur kulit)."
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Penyakit yang dapat menyebar melalui rantai makanan. Salah satu contohnya adalah suatu penyakit yang dijangkitkan oleh cacing pita (taenia). Cacing ini sebelumnya masuk ke dalam pencernakan binatang ternak melalui makanannya yang berupa sisa makanan/sampah."
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Sampah beracun: Telah dilaporkan bahwa di Jepang kira-kira 40.000 orang meninggal akibat mengkonsumsi ikan yang telah terkontaminasi oleh raksa (Hg). Raksa ini berasal dari sampah yang dibuang ke laut oleh pabrik yang memproduksi baterai dan akumulator."
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

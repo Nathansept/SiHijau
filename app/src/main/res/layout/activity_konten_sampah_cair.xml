@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".KontenSampahCair">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/main_toolbar"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Sampah Cair" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="f1Zf_uODrhs" >
+
+
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+            <TextView
+                android:id="@+id/TextDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sampah cair adalah bahan cairan yang telah digunakan dan tidak diperlukan kembali dan dibuang ke tempat pembuangan sampah."
+                android:textSize="12sp"
+                android:paddingLeft="10dp"
+                android:textStyle="normal"
+                android:textAlignment="textStart"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:id="@+id/TextDescription1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terdapat 2 jenis sampah cair yaitu Limbah hitam dan juga Limbah rumah tangga yang dihasilkan oleh manusia."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+            <TextView
+                android:id="@+id/TextDescription2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Limbah hitam: Sampah cair yang dihasilkan dari toilet. Sampah ini mengandung patogen yang jinak maupun berbahaya."
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+            <TextView
+                android:id="@+id/TextDescription3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Limbah rumah tangga: Sampah cair yang dihasilkan dari dapur, kamar mandi dan teempat cucian. Sampah ini mungkin mengandung patogen yang jinak yang dapat membahayakan mahkluk hidup"
+                android:textAlignment="textStart"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalam kehidupan manusia, sampah dalam jumlah besar datang dari aktivitas industri(diknal juga dengan sebutan limbah), misalnya pertambangan, manufaktur, dan konsumsi. Hampir semua produk Industri akan menjadi sampah pada suatu waktu, dengan jumlah sampah yang kira-kira mirip dengan jumlah konsumsi."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="15dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextBanner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dampak Sampah Bagi Masyarakat"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextBanner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terhadap Lingkungan"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampah yang dibuang sembarangan ke perairan dapat mengurangi kadar oksigen dan mengurangi sinar matahari yang memasuki ke dalam lingkungan perairan. Sehingga micro organisme yang baik berkurang dan populasi hewan kecil kecil akan terganggu."
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/TextDescription6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rembesan cairan yang masuk ke dalam drainasi atau sungai akan tercemari. Berbagai mahkluk hidup seperti ikan dipastikan akan mati sehingga beberapa spesies ikan akan musnah mengubah
+kondisi ekosistem perairan secara biologis. Pembuangan sampah secara langsung kedalam air akan menciptakan asam organik dan gas cair organik, seperti metana, menimbulkan gas yang berbau, gas ini dapat menimbulkan ledakan ataupun membahayakan lingkungan sekitar."
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:textStyle="normal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

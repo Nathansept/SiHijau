@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".AboutUs">
+<!-- Linear Layout with vertical orientation and other properties -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/main_toolbar"/>
+
+        <!-- TextView for heading -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/logosihijau2_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="SiHijau "
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="Waste Wanagement App"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="SiHijau App merupakan app yang dibangun yang bertujuan
+                        untuk memberi informasi mengenai berbagai edukasi seputar sampah."
+                        android:textAlignment="center"
+
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingRight="20dp">
+
+                        <ImageButton
+                            android:id="@+id/btnFacebook2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            app:srcCompat="@drawable/ic_action_facebook" />
+
+                        <ImageButton
+                            android:id="@+id/btnInstagram3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@null"
+                            app:srcCompat="@drawable/ic_action_instagram" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:text="CEO Founder"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/nathan"
+                        />
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Nathan Septian"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Indonesia"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="Mahasiswa Ukrida semester 5 dengan skill moderate Programming
+"
+                        android:textSize="16sp"
+
+                        android:textAlignment="center"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:paddingTop="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnwhatsapp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_whatsapp" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnFacebook3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_facebook" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_twitter" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/btnInstagram2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_instagram" />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:text="Organization"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/n_logo_01" />
+
+
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Lugli Corporation"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Indonesia"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="Lugli Corporation yang di bentuk dan di manage oleh Nathan Septian"
+                        android:textSize="16sp"
+
+                        android:textAlignment="center"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:paddingTop="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnwhatsapp1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_whatsapp" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnFacebook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_facebook" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_twitter" />
+
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/btnInstagram"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_instagram" />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:text="University"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="10dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/logoukrida" />
+
+
+
+                    <TextView
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="UKRIDA"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Indonesia"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="249dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/argentumsans_regular"
+                        android:text="Universitas Kristen yang merupakan tempat berkuliah saya, di jurusan Informatika angkatan 2020"
+                        android:textSize="16sp"
+
+                        android:textAlignment="center"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:paddingTop="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnwhatsapp2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_whatsapp" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:id="@+id/btnFacebook4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_facebook" />
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/imageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_twitter" />
+
+
+
+                        <ImageButton
+                            android:background="@null"
+                            android:id="@+id/btnInstagram4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ic_action_instagram" />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

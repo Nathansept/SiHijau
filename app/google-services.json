@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47572396021",
+    "project_id": "sihijau-18e6e",
+    "storage_bucket": "sihijau-18e6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47572396021:android:f0a98a6242712263b762bc",
+        "android_client_info": {
+          "package_name": "com.nathan.sihijau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47572396021-j6vo21rhcdlgjm4p3takmmtla4ci6k87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdOFI9h4tJMLKG4nKOctYBI1rYAjLEWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47572396021-j6vo21rhcdlgjm4p3takmmtla4ci6k87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

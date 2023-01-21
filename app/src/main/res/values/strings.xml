@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SiHijau</string>
+    <string name="title">Alert Dialog</string>
+    <string name="message">Do you want to Log Out?</string>
+    <string name="title_text1">Sampah Cair</string>
+    <string name="detail_text1">Sampah cair adalah bahan cairan yang telah digunakan dan tidak diperlukan kembali dan dibuang ....</string>
+    <!---->
+    <string name="title_text2">Sampah Manusia</string>
+    <string name="detail_text2">Sampah manusia (Inggris: human waste) adalah istilah yang biasa digunakan terhadap hasil-hasil ....</string>
+    <!---->
+    <string name="title_text3">Sampah Radioaktif</string>
+    <string name="detail_text3">Sampah nuklir merupakan hasil dari fusi nuklir dan fisi nuklir yang menghasilkan uranium .....</string>
+    <!---->
+    <string name="title_text4">Pestisida</string>
+    <string name="detail_text4">pembasmi hama (dari bahasa Inggris pesticide) adalah bahan yang digunakan untuk mengendalikan, menolak, atau membasmi organisme pengganggu.</string>
+    <!---->
+    <string name="title_text5">Sampah Konsumsi</string>
+    <string name="detail_text5">sampah yang dihasilkan oleh (manusia) pengguna barang, dengan kata lain adalah sampah-sampah yang dibuang ke tempat sampah. Ini adalah sampah yang umum dipikirkan manusia.</string>
+    <!---->
+    <string name="title_text6">Limbah medis</string>
+    <string name="detail_text6">Limbah medis harus sesegera mungkin diolah setelah dihasilkan dan penyimpanan menjadi pilihan terakhir jika limbah tidak dapat langsung diolah.</string>
+
+    <string name="title_text7">Limbah</string>
+    <string name="detail_text7">zat yang dihasilkan dari suatu proses produksi, baik industri maupun domestik (rumah tangga). Limbah dapat berupa sampah, air kakus , dan air buangan dari berbagai aktivitas domestik lainnya .</string>
+
+    <string name="title_text8">Sampah Alam</string>
+    <string name="detail_text8">Sampah yang diproduksi di kehidupan liar diintegrasikan melalui proses daur ulang alami, seperti halnya daun-daun kering di hutan yang terurai menjadi tanah.</string>
+
+    <string name="title_text9">Polusi Udara</string>
+    <string name="detail_text9">ditimbulkan oleh sumber-sumber alami maupun kegiatan manusia. Beberapa definisi gangguan fisik seperti polusi suara, panas, radiasi atau polusi cahaya dianggap sebagai polusi udara.</string>
+</resources>

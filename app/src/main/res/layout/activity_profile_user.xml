@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".AboutUs">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+    />
+
+    <TextView
+        android:id="@+id/emailAddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/greeting"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/emailAddressTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/fullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddress"
+        app:layout_constraintLeft_toLeftOf="@+id/greeting"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/fullNameTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/emailAddressTitle"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/ageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/fullName"
+        app:layout_constraintLeft_toLeftOf="@+id/fullNameTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/ageTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/fullNameTitle"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/phoneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telpon:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/age"
+        app:layout_constraintLeft_toLeftOf="@+id/ageTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/phoneTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/ageTitle"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:background="@drawable/mystyle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<RelativeLayout
+android:layout_width="300dp"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+android:background="@color/white">
+
+<include layout="@layout/main_nav_drawer"/>
+
+</RelativeLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
